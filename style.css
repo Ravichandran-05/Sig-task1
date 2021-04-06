@@ -1,0 +1,167 @@
+body {
+    background-color: #000000;
+    background-image: linear-gradient(360deg, #000000 35%, #7f8c8d 100%);
+    background-repeat: no-repeat;
+    background-position: relative;
+}
+
+#body {
+    margin: 18px 250px !important;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px !important;
+}
+
+.btn {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #4ba34e;
+}
+
+#txtarea {
+    background-color: #f1f1f4;
+    padding: 10px 20px !important;
+    margin-top: 20px !important;
+}
+
+.btn2 {
+    width: 100px;
+    margin-left: 570px !important;
+}
+
+.btn3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 100% !important;
+    margin-top: 20px;
+    border-top: 1px solid #f1f1f4 !important;
+}
+
+textarea {
+    resize: none;
+    font-size: 18px;
+}
+
+#content {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+#back {
+    color: #f1f1f4;
+}
+
+.fa-undo-alt {
+    margin-left: 600px;
+    font-size: 17px !important;
+}
+
+.fa-trash-alt {
+    margin-left: 20px;
+    font-size: 17px !important;
+    color: red;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 575px) {
+    body {
+        background-color: #000000;
+        background-image: none !important;
+        background-repeat: no-repeat;
+        background-position: relative;
+        width: 100% !important;
+    }
+    #body {
+        margin: -6px -6px !important;
+        background-color: rgb(255, 255, 255);
+        padding: 10px 20px !important;
+        width: 610px !important;
+    }
+    #head {
+        font-size: 60px !important;
+        text-align: center;
+        margin-top: 20px !important;
+    }
+    .btn {
+        background-color: #4CAF50;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 23px 23px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 26px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: #4ba34e;
+    }
+    #txtarea {
+        background-color: #f1f1f4;
+        padding: 10px 20px !important;
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+        height: 690px;
+    }
+    .btn1 {
+        margin-top: 20px;
+    }
+    .btn2 {
+        width: 150px;
+        margin-left: 280px !important;
+    }
+    .btn3 {
+        margin-top: 45px;
+    }
+    hr {
+        width: 100% !important;
+        margin-top: 20px;
+        border-top: 1px solid #f1f1f4 !important;
+    }
+    textarea {
+        resize: none;
+        font-size: 32px !important;
+    }
+    #para {
+        font-size: 32px !important;
+    }
+    #hh {
+        font-size: 32px !important;
+    }
+    #content {
+        width: 100%;
+        border: none;
+        outline: none;
+        height: 420px !important;
+    }
+    .fa-undo-alt {
+        margin-left: 360px;
+        font-size: 25px !important;
+    }
+    .fa-trash-alt {
+        margin-left: 20px;
+        font-size: 28px !important;
+        margin-top: -3px !important;
+        color: red;
+        cursor: pointer;
+    }
+}
