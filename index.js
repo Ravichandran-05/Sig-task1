@@ -33,7 +33,7 @@ function fun4() {
     if (txt2 == "") {
         alert("Please enter any anything !!");
     } else {
-        alert("You Entered : " + txt);
+        alert("You Entered : " + txt2);
     }
 
 }
